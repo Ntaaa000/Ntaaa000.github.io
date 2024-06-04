@@ -11,17 +11,17 @@ const link2 = document.getElementById("link2");
 const link3 = document.getElementById("link3");
 
 link1.addEventListener('click', (event) => {
-    event.preventDefault(); // Prevent default link behavior
+    event.preventDefault();
     scrollToElement('.header');
 });
 
 link2.addEventListener('click', (event) => {
-    event.preventDefault(); // Prevent default link behavior
+    event.preventDefault(); 
     scrollToElement('.header', 1);
 });
 
 link3.addEventListener('click', (event) => {
-    event.preventDefault(); // Prevent default link behavior
+    event.preventDefault(); 
     scrollToElement('.column');
 });
 
@@ -31,16 +31,16 @@ const footerLink1 = document.getElementById("footer-link1");
 const footerLink2 = document.getElementById("footer-link2");
 
 footerLink0.addEventListener('click', (event) => {
-    event.preventDefault(); // Prevent default link behavior
+    event.preventDefault(); 
     scrollToElement('nav');
 });
 
 footerLink1.addEventListener('click', (event) => {
-    event.preventDefault(); // Prevent default link behavior
+    event.preventDefault(); 
     scrollToElement('.header');
 });
 
 footerLink2.addEventListener('click', (event) => {
-    event.preventDefault(); // Prevent default link behavior
+    event.preventDefault(); 
     scrollToElement('.header', 1);
 });
